@@ -1,9 +1,13 @@
 body {
-  margin: 0;
+  /* 余白 */
+  margin: 0.5em;
+  /* フォント(優先度順) */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  /* safariなどのwebkit系のアンチエイリアス有効化 */
   -webkit-font-smoothing: antialiased;
+  /* firefoxでのグレイスケイル有効化 */
   -moz-osx-font-smoothing: grayscale;
 }
 

@@ -2,6 +2,7 @@
   "name": "iitai_blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iiTAi.github.io/iitai_blog",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "mv": "move build docs",
+    "git": "git add . && git commit -m \"commit message\" && git push origin dev",
+    "deploy": "npm run build && npm run mv && npm run git"
+
   },
   "eslintConfig": {
     "extends": [
