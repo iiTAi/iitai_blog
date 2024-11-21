@@ -9,7 +9,7 @@ function App() {
   return (
     <Grid2 container direction="column">
       <Header />
-      <div style={{ padding: 30 }}>
+      <div style={{ padding: 0 }}>
         <Content />
       </div>
     </Grid2>
