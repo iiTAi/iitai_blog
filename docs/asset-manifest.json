@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/iitai_blog/static/css/main.17d9fe79.css",
-    "main.js": "/iitai_blog/static/js/main.25e3b6db.js",
+    "main.css": "/iitai_blog/static/css/main.31bd8e63.css",
+    "main.js": "/iitai_blog/static/js/main.3a1224a0.js",
     "index.html": "/iitai_blog/index.html",
-    "main.17d9fe79.css.map": "/iitai_blog/static/css/main.17d9fe79.css.map",
-    "main.25e3b6db.js.map": "/iitai_blog/static/js/main.25e3b6db.js.map"
+    "main.31bd8e63.css.map": "/iitai_blog/static/css/main.31bd8e63.css.map",
+    "main.3a1224a0.js.map": "/iitai_blog/static/js/main.3a1224a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.17d9fe79.css",
-    "static/js/main.25e3b6db.js"
+    "static/css/main.31bd8e63.css",
+    "static/js/main.3a1224a0.js"
   ]
 }
