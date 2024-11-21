@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://iiTAi.github.io/iitai_blog",
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,10 +20,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "rm": "rmdir /s /q docs",
     "mv": "move build docs",
     "git": "git add . && git commit -m \"commit message\" && git push origin dev",
-    "deploy": "npm run build && npm run mv && npm run git"
-
+    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "eslintConfig": {
     "extends": [
