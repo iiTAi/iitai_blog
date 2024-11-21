@@ -1,20 +1,18 @@
-import { Button } from '@mui/material';
 import './App.css';
+import { Grid2 } from '@mui/material';
+import Header from './Header';
+import Content from './Content';
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <meta charset="UTF-8" lang="ja" />
-        <title>iiTAiの部屋</title>
-        <Button>text</Button>
-      </header>
-      
-      <body>
-        <h1>
-          iiTAiの部屋
-        </h1>
-      </body>
-    </div>
+    <Grid2 container direction="column">
+      <Header />
+      <div style={{ padding: 30 }}>
+        <Content />
+      </div>
+    </Grid2>
   );
 }
 
