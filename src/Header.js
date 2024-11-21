@@ -16,6 +16,7 @@ const Header = () => {
             color: 'white',  // 文字色
             padding: '1.5em',  // パディング
             textAlign: 'center',  // 文字の位置
+            fontSize: '8vw',  // フォントサイズ
         }}  // スタイルの指定
       >
         iiTAiの秘密基地

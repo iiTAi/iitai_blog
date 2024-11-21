@@ -16,7 +16,8 @@ body {
   /* 文字色 */
   color: #eeeeee;
   /* 文字サイズ */
-  font-size: 1.5em;
+  /* 開いている端末の幅に合わせて文字サイズを変更 */
+  font-size: 1.3em;
 }
 
 code {
